@@ -55,7 +55,7 @@ Returns total possible pair count
 ## For example, the N is 10, all possible pair is N ** 2(10 ** 2) which is 100 pairs. Out of 100 pairs, the possible sum pair count is 9 which is N-1(10-1).
 ## Time complexity for this problem is too high which is N**2, running time of the for loop will be N**2.
 
-# 2) Good Approach (Not Best Approach):
+# 2) Logical Approach (Not Best Approach):
 
   From the explanation we've seen that the possible sum pair starts with minimum value of the range given to the variable for A and <br/>
   for B, it starts with N-A. For Example the range given is 1 to N. And the given input N=10. The first pair is (1, N-1) nothing but <br/>
