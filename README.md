@@ -43,7 +43,7 @@ Returns total possible pair count
    (3,7) <br/>
    (4,6) <br/>
 
-4) So above 4 pairs the pairs that satisfies the problem statement. So the answer is 4.
+4) So above 4 pairs are the pairs that satisfies the problem statement. So the answer is 4.
 
 # 1) Tradition Approach:
 
