@@ -10,7 +10,7 @@ Returns total possible pair count
 # Sample Output 1
 4
 # Explanation 1
-1) First we have to see all the possible pair,
+1) First we have to see all the possible pair, <br/>
    (1,1), (1,2), (1,3), (1,4), (1,5), (1,6), (1,7), (1,8), (1,9), (1,10), <br/>
    (2,1), (2,2), (2,3), (2,4), (2,5), (2,6), (2,7), (2,8), (2,9), (2,10), <br/>
    (3,1), (3,2), (3,3), (3,4), (3,5), (3,6), (3,7), (3,8), (3,9), (3,10), <br/>
@@ -22,7 +22,7 @@ Returns total possible pair count
    (9,1), (9,2), (9,3), (9,4), (9,5), (9,6), (9,7), (9,8), (9,9), (9,10), <br/>
    (10,1),(10,2),(10,3),(10,4),(10,5),(10,6),(10,7),(10,8),(10,9),(10,10) <br/>
 
-2) Out of all possible pairs, the possible sum(A + B = N) pairs are,
+2) Out of all possible pairs, the possible sum(A + B = N) pairs are, <br/>
    (1,9) <br/>
    (2,8) <br/>
    (3,7) <br/>
@@ -33,7 +33,7 @@ Returns total possible pair count
    (8,2) <br/>
    (9,1) <br/>
 
-3) From the above possible sum pairs, we need pairs of A < B. So the pairs are,
+3) From the above possible sum pairs, we need pairs of A < B. So the pairs are, <br/>
    (1,9) <br/> 
    (2,8) <br/>
    (3,7) <br/>
@@ -46,9 +46,9 @@ Returns total possible pair count
   # CODE
   N, count = int(input()),0 <br/>
   for i in range(1, N+1): <br/>
-      for j in range(1, N+1): <br/>
-        if ( (i + j) == N ) & (i < j): <br/>
-          count += 1 <br/>
+          for j in range(1, N+1): <br/>
+                  if ( (i + j) == N ) & (i < j): <br/>
+                          count += 1 <br/>
   print(count) <br/>
 
 ## The above approach is considered as worst approach. The reason is, the sum pairs that we want is exactly N-1 pairs but the loop is running for N ** 2 times.
