@@ -43,7 +43,7 @@ Returns total possible pair count
 
 # 1) Tradition Approach (Worst Approach):
 
-  # CODE
+  ## PYTHON CODE
   N, count = int(input()),0 <br/>
   for i in range(1, N+1): <br/>
   &nbsp;&nbsp;&nbsp;&nbsp;for j in range(1, N+1): <br/>
@@ -65,7 +65,7 @@ Returns total possible pair count
   So, we know that A is increasing and B is decreasing from the example explanation. So, we can go with the looping approach by initializing A and <br/>
   B with appropriate value. Once A is greater than or equal to B we can stop the loop and print the count of pairs of sum. <br/>
 
-  ## CODE 
+  ## PYTHON CODE 
   N, count = int(input()),0 <br/>
   A = 1 <br/>
   B = N - A <br/>
@@ -105,7 +105,7 @@ Returns total possible pair count
   (N - 1) / 2. Eg: N=9, (9-1) / 2 = (8 / 2) = 4. This is what we want for odd numbers. <br/>
 
   We can write code like this, <br/>
-  # CODE 
+  ## PYTHON CODE 
   N = int(input()) <br/>
   if N & 2 == 0:  <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;print( (N - 2) / 2 ) <br/>
@@ -121,7 +121,7 @@ Returns total possible pair count
 
   The Final Best code is, <br/>
 
-  # CODE
+  ## PYTHON CODE
   N = int(input()) <br/>
   print( (N - 1) // 2) <br/>
 
