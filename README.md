@@ -45,7 +45,7 @@ Returns total possible pair count
 
 4) So above 4 pairs are the pairs that satisfies the problem statement. So the answer is 4.
 
-# 1) Tradition Approach:
+# 1) Traditional Approach:
 
   ## PYTHON CODE
   N, count = int(input()),0 <br/>
