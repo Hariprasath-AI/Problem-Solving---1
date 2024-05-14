@@ -84,10 +84,10 @@ Returns total possible pair count
 
 # 3) Logical Approach by incorporating Mathematical Knowledge:
 
-  We know that the possible pairs will be N-1 pairs. From N-1 pairs there is no chance of getting possible sum pairs which is greater than N/2 times. <br/>
-  It means that half of the pairs will be A < B and Half of the pairs will be A greater than B. In between there is change of getting A == B. A==B will occur only <br/>
-  when A starts with odd and B starts with odd. In this problem statement A starts with 1 which is odd number and if B value which is N-1 is odd, there is chance of <br/>
-  getting A == B. For example we can see the example explanation where N=10, A==B is available (5,5). <br/>
+  We know that the possible pairs will be N-1 pairs. From N-1 pairs there is no chance of getting possible sum pairs which is greater than N/2 times. 
+  It means that half of the pairs will be A < B and Half of the pairs will be A greater than B. In between there is change of getting A == B. A==B will occur only
+  when A starts with odd and B starts with odd. In this problem statement A starts with 1 which is odd number and if B value which is N-1 is odd if A is even, there is chance of 
+  getting A == B. For example we can see the example explanation 1 where N=10, A==B is available (5,5). <br/>
 
   For this Problem Statement, we can write condition for even number input. For even number we need the pairs which is above the A==B pair right!!. Then, we  <br/>
   can write formula like this ( (N - 1) - 1) / 2. <br/>
