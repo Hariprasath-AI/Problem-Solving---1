@@ -9,6 +9,10 @@ Returns total possible pair count
 10
 # Sample Output 1
 4
+# Sample Input 2
+9
+# Sample Output 2
+4
 # Explanation 1
 1) First we have to see all the possible pair, <br/>
    (1,1), (1,2), (1,3), (1,4), (1,5), (1,6), (1,7), (1,8), (1,9), (1,10), <br/>
