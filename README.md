@@ -46,9 +46,9 @@ Returns total possible pair count
   # CODE
   N, count = int(input()),0 <br/>
   for i in range(1, N+1): <br/>
-  \tfor j in range(1, N+1): <br/>
-  \t\tif ( (i + j) == N ) & (i < j): <br/>
-  \t\tcount += 1 <br/>
+  &nbsp&nbsp&nbsp&nbspfor j in range(1, N+1): <br/>
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspif ( (i + j) == N ) & (i < j): <br/>
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspcount += 1 <br/>
   print(count) <br/>
 
 ## The above approach is considered as worst approach. The reason is, the sum pairs that we want is exactly N-1 pairs but the loop is running for N ** 2 times.
