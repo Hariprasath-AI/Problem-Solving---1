@@ -3,7 +3,7 @@ N, count = int(input()),0
 for i in range(1, N+1):
     for j in range(1, N+1):
         if ( (i + j) == N ) & (i < j):
-        count += 1
+            count += 1
 print(count)
 
 # 2) Logical Approach
