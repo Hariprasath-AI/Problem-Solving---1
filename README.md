@@ -119,14 +119,18 @@ Returns total possible pair count
   For Example, N=10, the possible pairs is 9, A==B is possible. If we floor divide by 2, we will get 9 // 2 = 4 and this is what we need.<br/>
   For Example N=9, the possible pairs is 8, A==B not possible. If we floor divide by 2, we will get 8 // 2 = 4 and this is what we need.<br/>
 
+  The Time taken for this approach is 1, means only one caluculation for any input N. Practically less than 1 microsecond (tested in 6 core 12 thread CPU) for any N value. For Eg: <br/>
+  N=1000000000000000000000000000000000.<br/>
+  If we process this N value in 1st or 2nd, it will take months and months of time to return the output.<br/>
+
   The Final Best code is, <br/>
 
   ## PYTHON CODE
   N = int(input()) <br/>
   print( (N - 1) // 2) <br/>
-
+  <br/>
   (or) <br/>
-
+  <br/>
   print( ( int(input()) - 1 ) // 2) <br/>
   
 
