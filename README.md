@@ -70,9 +70,9 @@ Returns total possible pair count
   A = 1 <br/>
   B = N - A <br/>
   while A < B: <br/>
-      count += 1  <br/>
-      A = A + 1  <br/>
-      B = N - A  <br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;count += 1  <br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;A = A + 1  <br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;B = N - A  <br/>
   print(count)  <br/>
 
   From this approach, we've reduce the running time from N**2 to ~ (N - 1) // 2. For example if N=10. The previous running time is (N**2) 100 times. <br/>
@@ -108,9 +108,9 @@ Returns total possible pair count
   # CODE 
   N = int(input()) <br/>
   if N & 2 == 0:  <br/>
-    print( (N - 2) / 2 ) <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;print( (N - 2) / 2 ) <br/>
   elif N % 2 != 0: <br/>
-    print( (N - 1) / 2) <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;print( (N - 1) / 2) <br/>
 
   Here we are reducing 1 or 2 from the N value and the we're diving by 2. This is the common thing in both of the formulas. <br/>
   So, we can write this in single formula. We know that we have to reduce 1 for sure from the N, reason is to get possible pair count. <br/> 
