@@ -41,7 +41,7 @@ Returns total possible pair count
 
 4) So above 4 pairs the pairs that satisfies the problem statement. So the answer is 4.
 
-# 1) Tradition Approach (Worst Approach):
+# 1) Tradition Approach:
 
   ## PYTHON CODE
   N, count = int(input()),0 <br/>
@@ -55,7 +55,7 @@ Returns total possible pair count
 ## For example, the N is 10, all possible pair is N ** 2(10 ** 2) which is 100 pairs. Out of 100 pairs, the possible sum pair count is 9 which is N-1(10-1).
 ## Time complexity for this problem is too high which is N**2, running time of the for loop will be N**2.
 
-# 2) Logical Approach (Not Best Approach):
+# 2) Logical Approach:
 
   From the explanation we've seen that the possible sum pair starts with minimum value of the range given to the variable for A and <br/>
   for B, it starts with N-A. For Example the range given is 1 to N. And the given input N=10. The first pair is (1, N-1) nothing but <br/>
@@ -78,7 +78,7 @@ Returns total possible pair count
   From this approach, we've reduce the running time from N**2 to ~ (N - 1) // 2. For example if N=10. The previous running time is (N**2) 100 times. <br/>
   Here, the running time is {(N - 1) // 2} (10-1) // 2 = 9 // 2 = 4. This is a huge difference from 100 times to 4 times. <br/>
 
-# 3) Best Approach:
+# 3) Logical Approach by incorporating Mathematical Knowledge:
 
   We know that the possible pairs will be N-1 pairs. From N-1 pairs there is no chance of getting possible sum pairs which is greater than N/2 times. <br/>
   It means that half of the pairs will be A < B and Half of the pairs will be A greater than B. In between there is change of getting A == B. A==B will occur only <br/>
@@ -111,6 +111,8 @@ Returns total possible pair count
     &nbsp;&nbsp;&nbsp;&nbsp;print( (N - 2) / 2 ) <br/>
   elif N % 2 != 0: <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;print( (N - 1) / 2) <br/>
+
+# 4) Fine-Tuned Logical Approach by incorporating Mathematical Knowledge
 
   Here we are reducing 1 or 2 from the N value and the we're diving by 2. This is the common thing in both of the formulas. <br/>
   So, we can write this in single formula. We know that we have to reduce 1 for sure from the N, reason is to get possible pair count. <br/> 
