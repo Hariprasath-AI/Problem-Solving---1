@@ -61,7 +61,7 @@ Returns the total possible pair count
 
 # 2) Logical Approach:
 
-  From the explanation, we've seen that the possible sum pair starts with the minimum value of the range given to the variable for A and <br/>
+  From the explanation, we've seen that the possible sum pair starts with the minimum value of the range given to the variable for A is 1 and <br/>
   for B, it starts with N-A. For Example, the range given is 1 to N. And the given input N = 10. The first pair is (1, N - 1) nothing but <br/>
   (1,9). <br/>
 
