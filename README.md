@@ -55,7 +55,7 @@ Returns the total possible pair count
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;count += 1 <br/>
   print(count) <br/>
 
-## The above approach is the worst approach. The reason is, the sum pairs that we want are exactly N-1 pairs, but the loop is running for N ** 2 times.
+## The above approach is the worst approach. The reason is, the sum pairs that we want are exactly N-1 pairs, but the loop will run for N ** 2 times.
 ## For example, if the N is 10, all possible pairs are N ** 2(10 ** 2) which is 100 pairs. Out of 100 pairs, the possible sum pair count is 9, which is N-1(10-1).
 ## Time complexity for this problem is too high, which is N**2 and the running time of the for loop will be N**2.
 
